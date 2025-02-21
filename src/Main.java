@@ -1,15 +1,17 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
-    public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+public class Main
+{
+    public static void main(String[] args)
+    {
+        // Declare and initialize the number to examine
+        int numToExamine = 2; // Change this number to test different values
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
+        // Check if the number is even or odd
+        if (numToExamine % 2 == 0)
+        {
+            System.out.println("The number " + numToExamine + " is Even.");
+        } else
+        {
+            System.out.println("The number " + numToExamine + " is Odd.");
         }
     }
 }
